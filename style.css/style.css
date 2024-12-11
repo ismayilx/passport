@@ -198,6 +198,225 @@ nav a:hover { color: #fff; }
 
 /*what we serve*/
 
+.serve{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 1000px;
+}
+
+.serve-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serve-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.serve-main-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 475px;
+    height: 253px;
+
+    h2{
+        font: 700 18 "Open Sans";
+        color: #fc8621;
+    }
+
+    h1{
+        font: 700 46px "Playfair Display";
+        color: #000;
+        line-height: 1.2;
+    }
+
+    p{
+        font: 400 14px "Open Sans";
+        color: #212529;
+        line-height: 1.5;
+    }
+}
+
+.serve-main-arrows{
+    
+
+    i:nth-of-type(1){
+        width: 48px;
+        height: 32px;
+        color: #212529;
+    }
+
+    i:nth-of-type(2){
+        width: 64px;
+        height: 36px;
+        color: #212529;
+    }
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 565px;
+    width: 351px;
+
+    img{
+        width: 351px;
+        height: 445px;
+    }
+
+    h3{
+        font: 700 28px "Playfair Display";
+        color: #000;
+        display: block;
+        padding: 20px 0;
+    }
+}
+
+.serve-transform{
+    display: flex;
+    justify-content: end;
+    transform: translateY( -218px);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+
+    p{
+        font: 400 20px "Open Sans";
+        color: #fc8621;
+        background-color: #fff;
+        padding: 30px;
+        overflow: hidden;
+    }
+}
+
+/*happy customer*/
+
+.customer-FAQ{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.happy-customer{
+    width: 475px;
+    height: 504px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    h4{
+        font: 700 18px "Open Sans";
+        color: #fc8621;
+    }
+
+    h5{
+        font: 700 46px "Playfair Display";
+        color: #000;
+        padding-bottom: 70px;
+    }
+
+    img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    h6{
+        font: 500 18px "Playfair Display";
+        color: #fc8621;
+    }
+
+    strong, p{
+        font: 400 14px "Open Sans";
+        color: #000;
+    }
+}
+
+.happy-customer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+    em{
+        font: 400 70px "Open Sans";
+    }
+
+    p{
+        padding-bottom: 50px;
+    }
+}
+
+/*FAQ*/
+
+.FAQ{
+    width: 570px;
+    height: 504px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.FAQ-main{
+    
+    h4{
+        font: 700 18px "Open Sans";
+        color: #fc8621;
+    }
+
+    h5{
+        font: 700 46px "Playfair Display";
+        color: #000;
+        padding-bottom: 40px;
+    }
+}
+
+.FAQ-questions-minus{
+    padding: 15px 0 15px 15px;
+    width: 504px;
+    background-color: #fc8621;
+    color: #fff;
+    display: flex;
+    justify-content: baseline;
+
+    i{
+        padding-right: 20px;
+        font-weight: 700;
+        align-self: center;
+    }
+
+    p{
+        font: 700 16px "Playfair Display";
+    }
+
+}
+
+.FAQ-text{
+    font: 40 14px "Open Sans";
+    padding: 0 20px;
+}
+
+.FAQ-questions-plus{
+    padding: 15px 0 15px 15px;
+    width: 504px;
+    display: flex;
+    justify-content: baseline;
+
+    i{
+        padding-right: 20px;
+        font-weight: 700;
+        align-self: center; 
+    }
+
+    p{
+        font: 400 16px "Playfair Display";
+    }
+}
+
+/*recent posts*/
 
 /*footer*/
 
